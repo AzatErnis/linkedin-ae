@@ -12,7 +12,7 @@ const HeaderOption = ({ Icon, title, onClick, avatar }) => {
 
       {avatar && (
         <Avatar className="headerOption__icon" src={user?.photoUrl}>
-          {user?.email[0]}
+          {user?.email[0].toUpperCase()}
         </Avatar>
       )}
 
