@@ -6,6 +6,7 @@
 }
 .post__header {
   display: flex;
+  align-items: center;
   margin-bottom: 10px;
 }
 .post__info {
